@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+header{
+    
+    font-size: 13px;
+    height: 31px;
+    width: 100%;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo{
+    background-image: url(blacklogo.jpg);
+    background-size: cover;
+   width: 140px;
+   height: 90px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 310px;
+    width:350px ;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+.area{
+    padding: 20px;
+}
+h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+label{
+    font-size: 13px;
+    font-weight: 700;
+}
+input[type=email]{
+    width: 296px;
+    height: 26px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+input[type=button]{
+    width: 310px;
+    height: 29px;
+    background-color: #ffd814;
+    border: hidden;
+    border-radius: 8px;
+}
+.links{
+    font-size: 13px;
+    margin-top: 18px;
+    color: #111;
+
+}
+.links a{
+    text-decoration: none;
+}
+.help{
+    font-size: 13px;
+    color: #0066c0;
+}
+.help a{
+    text-decoration: none;
+    padding-top: 2px;
+}
+.aside{
+  text-align: center;
+}
+.new{
+   font-size: 13px;
+   color: #969595;
+   margin: 30px;
+}
+.register button{
+    border: 1px solid #acb4bb;
+    background-color: rgb(244, 235, 235);
+    width: 310px;
+    height: 29px;
+    border-radius: 9px; 
+}
+.register button:hover{
+   background-color: rgb(225, 216, 216);;
+}
+hr{
+    margin-top: 30px;
+}
+footer{
+  text-align: center;
+  height: 71px;
+}
+.link{
+    padding:15px;
+    height: 16px;
+}
+.link a{
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 13px;
+}
+.copyright{
+    font-size: 13px;
+}
